@@ -1,0 +1,248 @@
+@import 'bootstrap.css';
+@import 'icon.css';
+@import 'fonts.css';
+
+*,
+p,
+ul,
+a {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Arial';
+    font-weight: 400;
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.pre_nav {
+    background: black;
+    color: white;
+}
+
+.pre_nav_btn {
+    background: black;
+    border: none;
+    padding: 10px;
+    border-right: 1px #444444 solid;
+}
+
+.pre_nav_btn:first-child {
+    border-left: 1px solid #444444;
+}
+
+.nav_card {
+    width: 215px;
+    border: 1px solid #d6d6d6;
+    margin-left: 85px;
+}
+
+header nav {
+    padding: 20px 0;
+}
+
+header nav li {
+    margin-left: 25px;
+}
+
+header nav li:first-child {
+    margin: 0;
+}
+
+header .navbar-collapse {
+    flex-basis: auto;
+}
+
+.nav_drop_down {
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.nav_drop_down i {
+    transition: 500ms;
+}
+
+.nav_drop_down[aria-expanded="true"] i {
+    transform: rotate(180deg);
+}
+
+.nav_card p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#header_slider {
+    background: #12110f;
+    margin-bottom: 70px;
+}
+
+.slider_content {
+    justify-content: space-between;
+}
+
+.slider_desc {
+    max-width: 510px;
+}
+
+.slider_desc h1 {
+    color: #eee6e4;
+    font-size: 90px;
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 0.8;
+    margin-bottom: 80px;
+}
+
+.slider_desc p {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #eee6e4;
+    line-height: 22px;
+    text-align: center;
+    font-family: 'Roboto-Medium';
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.buy_now {
+    color: white;
+    padding: 10px 25px;
+    border: 3px solid black;
+    display: block;
+    background: #1f1f1f;
+    transition: 500ms;
+    margin: 0 auto;
+    width: max-content;
+    text-transform: uppercase;
+    font-family: 'Helvetica';
+}
+
+.buy_now:hover {
+    border: 3px solid white;
+    background: black;
+    color: white;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    display: flex;
+    opacity: 1;
+    justify-content: flex-start;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+    padding: 50px 10px;
+    background: #e8e8e7;
+    color: #babab9;
+}
+
+.carousel-control-next {
+    justify-content: flex-end;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 1;
+}
+
+#header_slider .carousel-indicators {
+    top: 100%;
+    width: 100%;
+    margin: 0;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header_slider .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border: none;
+    padding: 0;
+    display: block;
+    position: relative;
+    border-radius: 50%;
+    background: #867a76;
+    opacity: 1;
+}
+
+#header_slider .carousel-indicators li.active {
+    background: black;
+}
+
+.main_social{
+    background: black;
+    margin-bottom: 35px;
+}
+
+.main_social a{
+    background: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    color: #6b6b6b;
+    font-size: 20px;
+    transition: 500ms;
+}
+
+.main_social a:hover{
+    background: grey;  
+    color: #f7f7f7;  
+}
+
+.main_social p{
+    color: #f7f7f7;
+    margin-right: 10px;
+}
+
+.main_social button,
+.main_social input{
+    border: 1px solid white;
+    background: none;
+    color: #f7f7f7;
+    padding: 5px 12px;
+}
+
+.main_social button{
+    border-radius: 0 7px 7px 0;
+}
+
+.main_social form{
+    display: flex;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+.main_collage_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main_collage{
+    margin-bottom: 50px;
+}
+
