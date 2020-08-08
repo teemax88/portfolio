@@ -140,6 +140,7 @@
 .study{
     background: var(--dark);
     padding: 15px 0;
+    margin-bottom: 20px;
 }
 
 .study_title{
@@ -172,11 +173,13 @@
     display: flex;
     align-items: center;
     font-size: 40px;
+    
 }
 
 .study_slider-next{
     left: auto;
     right: 0;
+    
 }
 
 .study_slider_icon_color::before{
@@ -185,5 +188,28 @@
 
 .study_slider_icon_color::after{
     color: #a5a6a6;
+}
+
+.works_title{
+    color: var(--dark-light);
+    text-transform: uppercase;       
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card{
+    border:1px solid #282929;
+    margin-bottom: 20px;
+}
+
+.card-text{
+    margin-bottom: 20px;
+}
+
+.card_wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-wrap: wrap;  
 }
 
